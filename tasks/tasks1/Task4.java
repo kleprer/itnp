@@ -17,6 +17,7 @@ public class Task4 {
    answer = in.next();
    if (!answer.equals("y")) { break; }
   }
+  in.close();
  }
 
  public static String triangleType(int a, int b, int c) {
