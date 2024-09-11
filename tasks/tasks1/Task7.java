@@ -12,6 +12,7 @@ public class Task7 {
    System.out.print("Calculate again? (y/n)");
    answer = in.next();
   }
+  in.close();
  }
  
  public static int factorial(int num) {
