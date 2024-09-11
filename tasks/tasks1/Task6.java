@@ -17,7 +17,7 @@ public class Task6 {
    System.out.print("Calculate again? (y/n)");
    answer = in.next();
   }
-
+  in.close();
  }
  
  public static int howManyItems(int n, float w, float h) {
