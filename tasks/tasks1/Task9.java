@@ -15,6 +15,7 @@ public class Task9 {
    System.out.print("Calculate again? (y/n) ");
    answer = in.next();
   }
+  in.close();
  }
  
  public static int ticketSaler(int num, int cost, float com) {
