@@ -14,7 +14,7 @@ public class Task5 {
    System.out.print("Compare again? (y/n) ");
    answer = in.next();
   }
-  
+  in.close();
   
  }
 
