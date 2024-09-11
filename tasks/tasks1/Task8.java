@@ -14,6 +14,7 @@ public class Task8 {
    System.out.print("Calculate again? (y/n) ");
    answer = in.next();
   }
+  in.close();
  }
 
  public static int gcd(int a, int b) {
