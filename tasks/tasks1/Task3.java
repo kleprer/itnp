@@ -17,7 +17,7 @@ public class Task3 {
    answer = in.next();
    if (!answer.equals("y")) { break; }
   }
-  
+  in.close();
   
  }
 
