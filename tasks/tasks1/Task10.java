@@ -14,13 +14,13 @@ public class Task10 {
    System.out.print("Calculate again? y/n ");
    answer = in.next();
   }
-  
+  in.close();
  }
  
  public static int tables(int students, int desks) {
- if (desks*2 > students) return 0;
- int tables = (students%desks != 0) ? (students%desks+1)/2 : students%(desks)/2;
- return tables;
+  if (desks*2 > students) return 0;
+  int tables = (students%desks != 0) ? (students%desks+1)/2 : students%(desks)/2;
+  return tables;
  
  }
 
